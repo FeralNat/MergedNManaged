@@ -24,6 +24,7 @@
 	$anArray[]= array(
 		'name' => 'Nat Storey',
 		'email' => 'natstorey@mail.com'
+		'job' => 'retail associate'
 		);
 	var_dump($anArray)
 	//im not sure how to convert to XML and the search results all were long code
