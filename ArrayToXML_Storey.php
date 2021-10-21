@@ -28,6 +28,10 @@
 		);
 	var_dump($anArray)
 	//im not sure how to convert to XML and the search results all were long code
-	$characters = xml_encode($anArray);
+	//first attempt was $characters = xml_encode($anArray);
+	//second feature I tried another code that I found on https://stackoverflow.com/questions/1397036/how-to-convert-array-to-simplexml
+	$characters = new SimpleXMLElement('<root/>');
+	array_walk_recursive($anArray, array ($characters, 'addChild'));
+	print $character->asXML();
 	$handler = fopen("characters.XML",'x+');
 ?>
