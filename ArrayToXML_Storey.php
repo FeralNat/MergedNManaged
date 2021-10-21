@@ -9,6 +9,10 @@
 			'email' => 'clarkkent@mail.com'
 		],
 		[
+			'name' => 'Bruce Wayne',
+			'email' => 'brucewayne@mail.com'
+		],
+		[
 			'name' => 'Harry Potter',
 			'email' => 'harrypotter@mail.com'
 		],
