@@ -3,18 +3,22 @@
 		[
 			'name' => 'Peter Parker',
 			'email' => 'peterparker@mail.com'
+			'job'	=> 'news photographer'
 		],
 		[
 			'name' => 'Clark Kent',
 			'email' => 'clarkkent@mail.com'
+			'job' => 'journalist'
 		],
 		[
 			'name' => 'Bruce Wayne',
 			'email' => 'brucewayne@mail.com'
+			'job' => 'CEO wayne enterprises'
 		],
 		[
 			'name' => 'Harry Potter',
 			'email' => 'harrypotter@mail.com'
+			'job' => 'wizard'
 		],
 	];
 	$anArray[]= array(
